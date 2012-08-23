@@ -35,7 +35,7 @@ contains some more tutorials and tests that are a good source to learn from.
 
 And last but not least, there exist plenty of blog entries of the developers
 of the framework, like mightybyte [10], jaspervdj [11], norm2782 [12] and many
-more which are forgotten here. Not mentioned even quite a few Snap projects
+others which are forgotten here. Not mentioned even quite a few Snap projects
 found on Github, among other one of my humble self [13].
 
 So if we already have so many sources of good documentation why should we need
@@ -48,7 +48,7 @@ that works. And it was quite cumbersome to look for specific examples and
 explanation for every hurdle I ran into. It would have been easier if there
 were somebody who takes my hand and leads me through the world of we
 development with Snap. One source that contains most of the knowledge that is
-necessary when you want to develop you web applications with Snap. This is
+necessary when you want to develop your web applications with Snap. This is
 exactly what this tutorial here is trying to provide.
 
 
@@ -156,8 +156,7 @@ stay at the bottom and keep things as simple as possible (after all I see
 myself as beginner in Haskell and Snap as well) but as I studied computing
 myself I might tend to lift off a bit here and there. Just pull me back to the
 bottom wherever you see that, ALL FEEDBACK IS VERY WELCOME! :) Just create a
-pull request or send a mail to me or the Snap mailing list or complain at
-#snapframework on the freenode server.
+pull request or send a mail to me or the Snap mailing list or complain at #snapframework on the freenode server.
 
 Happy learning!
 
