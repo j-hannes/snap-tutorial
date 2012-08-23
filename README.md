@@ -1,4 +1,4 @@
-Concept of a new snap tutorial
+Concept of a new Snap tutorial
 ==============================
 
 
@@ -47,7 +47,7 @@ badly for examples, examples, examples. Show me how this works... show me how
 that works. And it was quite cumbersome to look for specific examples and
 explanation for every hurdle I ran into. It would have been easier if there
 were somebody who takes my hand and leads me through the world of we
-development with snap. One source that contains most of the knowledge that is
+development with Snap. One source that contains most of the knowledge that is
 necessary when you want to develop you web applications with Snap. This is
 exactly what this tutorial here is trying to provide.
 
@@ -133,7 +133,7 @@ chapters, which can be read consecutively. But as they are not depending each
 other it is also possible to jump between them or just to pick the one that
 looks interesting. The structure of the tutorial looks as follows:
 
-1. Hello Yuri - Write, build and deploy a snap web application.
+1. Hello Yuri - Write, build and deploy a Snap web application.
 
 2. Snaplets - Modularize your application.
 
@@ -156,7 +156,7 @@ stay at the bottom and keep things as simple as possible (after all I see
 myself as beginner in Haskell and Snap as well) but as I studied computing
 myself I might tend to lift off a bit here and there. Just pull me back to the
 bottom wherever you see that, ALL FEEDBACK IS VERY WELCOME! :) Just create a
-pull request or send a mail to me or the snap mailing list or complain at
+pull request or send a mail to me or the Snap mailing list or complain at
 #snapframework on the freenode server.
 
 Happy learning!
