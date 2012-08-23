@@ -161,12 +161,6 @@ pull request or send a mail to me or the Snap mailing list or complain at #snapf
 Happy learning!
 
 
-Chapter 1 - Hello Yuri!
------------------------
-
-TEXT HERE
-
-
 References
 ----------
 
