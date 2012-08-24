@@ -1,6 +1,8 @@
 Concept of a new Snap tutorial
 ==============================
 
+Note: This chapter is a first attempt to write the introduction and will
+probably be modified a bit if this tutorial get's published.
 
 What is this?
 -------------
