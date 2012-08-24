@@ -1,11 +1,11 @@
 Chapter 1 - First steps with Snap
 =================================
 
-This chapter can be kept very short, thanks to precise documentation and tools
-provided on the Snap homepage [22].
+This chapter can be kept very short, thanks to precise documentation on the
+Snap homepage [22] and tools that already come with the framework itself.
 
-Firstly the installation is quite easy and can be done with two command as
-they can be found on the Download page of the framework [23]:
+The installation of the framework is quite easy and can be done with two
+command as they can be found on the download page [23] of the framework:
 
     $ cabal update
     $ cabal install snap
@@ -13,13 +13,13 @@ they can be found on the Download page of the framework [23]:
 The installation can take some time depending on how much dependency packages
 you already installed previously.
 
-After all packages have been downloaded and installed successfully it is
-probably most desired to try Snap straight away, maybe with some small test
+After all packages have been downloaded and installed successfully you are 
+probably most curious to try Snap straight away, maybe with some small test
 applications.
 
-Therefore Snap offers so called scaffolding tools that automatically create a
-minimalistic but runnable application. Snap comes with three different
-applications that can be created in such a way.
+For that Snap offers a scaffolding tool that automatically creates minimal
+complete applications. Snap comes with three different applications that can
+be created in such a way.
 
     $ snap init barebones
     
@@ -31,7 +31,7 @@ finally run the project either after a cabal installation or simply with
 'runhaskell src/Main' if you don't want to install anything for now. You
 browser should show a simple 'hello world' response when you request the
 'localhost:8000' URL. It might also be helpful to read the Snap API
-introduction [25] that explains the created application a bit more in detail.
+introduction [25] which explains the created application a bit more in detail.
 
     $ snap init tutorial
 
@@ -47,13 +47,24 @@ The last command creates scaffolds of a standard Snap web application. This
 command will certainly used most often for initializing a new Snap
 application. It already contains some more code than necessary but it also
 shows quite a few technologies working together which will be covered in later
-chapters.
+chapters. If you can't wait you could install the created scaffolds via
+'cabal install <youprojectname>' and then run it via './<youprojectname>' and
+be amazed at what is already possible with less than 65 lines of code. But we
+will cover those things later anyway so you don't need to do that for now.
 
 
 Where to go from here?
 ----------------------
 
-...
+After we already went the first steps with Snap and (hopefully) everything
+worked fine we will continue with the next chapter where we will create the
+basis for all further chapters before we explain different techniques that
+work together with the framework in more detail.
+
+If you ran into any problems while following the instructions here or in the
+referred documentation don't hesitate to ask in the IRC channel or in
+the snap mailing list where you will probably receive help very quick. You can
+find the contact information on the about page [27] of the framework.
 
 
 References
@@ -68,3 +79,5 @@ References
 [25] http://snapframework.com/docs/tutorials/snap-api
 
 [26] http://snapframework.com/docs/tutorials/snaplets-tutorial
+
+[27] http://snapframework.com/about
