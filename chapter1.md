@@ -25,11 +25,11 @@ applications that can be created in such a way:
     $ snap init barebones
     
 The first command creates a minimal but runnable example application
-consisting of just 20 lines of code. The quickstart quide [24] provides more
-information about that variant. If you wish just create a custom folder for a
+consisting of just 20 lines of code. The quickstart guide [24] provides more
+information about that variant. If you wish, just create a custom folder for a
 test application, run that command, maybe have a look at the created files and
 finally run the project either after a cabal installation 'cabal install' or simply with
-'runhaskell src/Main' if you don't want to install anything for now. You
+'runhaskell src/Main' if you don't want to install anything for now. Your
 browser should show a simple 'hello world' response when you request the
 'localhost:8000' URL. It might also be helpful to read the Snap API
 introduction [25] which explains the created application a bit more in detail.
