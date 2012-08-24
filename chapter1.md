@@ -52,19 +52,25 @@ chapters. If you can't wait you could install the created scaffolds via
 be amazed at what is already possible with less than 65 lines of code. But we
 will cover those things later anyway so you don't need to do that for now.
 
+Alright, we are already done with the first chapter, which was tried to be
+kept very short and simple.
+
 
 Where to go from here?
 ----------------------
 
-After we already went the first steps with Snap and (hopefully) everything
-worked fine we will continue with the next chapter where we will create the
-basis for all further chapters before we explain different techniques that
+After we now did our first steps with Snap and (hopefully) everything worked
+fine we will continue with the next (also very short) chapter where we create
+the basis for all further chapters before we explain different techniques that
 work together with the framework in more detail.
 
 If you ran into any problems while following the instructions here or in the
 referred documentation don't hesitate to ask in the IRC channel or in
 the snap mailing list where you will probably receive help very quick. You can
 find the contact information on the about page [27] of the framework.
+
+Again, if you have any feedback for us how to improve this chapter or this
+tutorial feel free to contact us or modify the according part yourself.
 
 
 References
