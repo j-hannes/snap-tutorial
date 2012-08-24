@@ -135,17 +135,20 @@ looks interesting. The structure of the tutorial looks as follows:
 
 1. [First steps with Snap](chapter1.md) - Write, build and deploy a Snap web application.
 
-2. Snaplets - Modularize your application.
+2. [Application infrastructure](chapter2.md) - Where to place model, view and
+controller 
 
-3. Heist - Clean and simple front end templating system.
+3. [How things work together](chapter3.md) - Introduction of Heist and Splices
 
-4. Bootstrap - Use external CSS / JS libraries in you app.
+4. Snaplets - Modularize your application.
 
-5. Digestive Functors - Create forms a la category theory.
+5. Bootstrap - Use external CSS / JS libraries in you app.
 
-6. Authentication - Use session and authentication functionality.
+6. Digestive Functors - Create forms a la category theory.
 
-7. Persistence - Some examples that show the usage of databases.
+7. Authentication - Use session and authentication functionality.
+
+8. Persistence - Some examples that show the usage of databases.
 
 That should be it and might be extended / modified over the time to achieve
 best learning results to new readers.
