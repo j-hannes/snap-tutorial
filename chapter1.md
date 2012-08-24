@@ -13,11 +13,11 @@ command as they can be found on the download page [23] of the framework:
 The installation can take some time depending on how much dependency packages
 you already installed previously.
 
-After all packages have been downloaded and installed successfully you are
+After all packages have been downloaded and installed successfully, you are
 probably most curious to try Snap right away, to see that this stuff really
 works, especially if you are new to Haskell web development.
 
-As at the very beginning you wont have the overview about the framework to
+As at the very beginning you won't have the overview about the framework to
 know what to start with, Snap offers a scaffolding tool that automatically
 creates minimal complete applications. Snap comes with three different
 applications that can be created in such a way:
