@@ -182,13 +182,105 @@ Cleaning up the initial application
 The current state of the project already contains some example code to give
 new developers the idea how things work together. This is in general a very
 nice feature but as we will explain individual feature here step by step we
-don't need that code and will hence remove it for now.
+don't need that code and thus we can remove it for now.
+
+We begin with cleaning up the `src/Application.hs`. For it is just necessary
+to know that this module contains a snaplet which represents the state of our
+application and provides access functions for this. Snaplets will be explained
+later in chapter X, for now imagine them as modules that provide a certain
+functionality and may contain further snaplets. The application snaplet that
+has been initialized with the default scaffolding contains three
+'subsnaplets': Heist, a session manager and an authentication manager. We will
+always need Heist in our upcoming chapters, so we can leave it there, the
+others can be removed for now. You can also remove the according imports, so
+the final `src/Application.hs` will look like:
+
+    {-# LANGUAGE TemplateHaskell #-}
+
+    ------------------------------------------------------------------------------
+    -- | This module defines our application's state type and an alias for its
+    -- handler monad.
+    module Application where
+    
+    ------------------------------------------------------------------------------
+    import Data.Lens.Template
+    import Snap.Snaplet
+    import Snap.Snaplet.Heist
+    
+    ------------------------------------------------------------------------------
+    data App = App
+        { _heist :: Snaplet (Heist App) 
+        }
+    
+    makeLens ''App
+    
+    instance HasHeist App where
+        heistLens = subSnaplet heist
+    
+    
+    ------------------------------------------------------------------------------
+    type AppHandler = Handler App App
+
+As next we can clean up the `src/Site.hs` and remove the example code from it.
+This means all the functions with a *handler* suffix can be removed. The
+initialization of the session and authentication snaplet must be removed as
+well as the according part in the application snaplet has been removed
+previously. Finally the imports of modules can be cleaned up as well, so the
+result will look like this:
+
+    {-#LANGUAGE OverloadedStrings #-}
+
+    ------------------------------------------------------------------------------
+    -- | This module is where all the routes and handlers are defined for your
+    -- site. The 'app' function is the initializer that combines everything
+    -- together and is exported by this module.
+    module Site
+      ( app
+      ) where
+
+    ------------------------------------------------------------------------------
+    import           Data.ByteString (ByteString)
+    import           Snap.Snaplet
+    import           Snap.Snaplet.Heist
+    import           Snap.Util.FileServe
+    ------------------------------------------------------------------------------
+    import           Application
+
+    
+    ------------------------------------------------------------------------------
+    -- | The application's routes.
+    routes :: [(ByteString, Handler App App ())]
+    routes = [ ("", serveDirectory "static")
+            ]
 
 
+    ------------------------------------------------------------------------------
+    -- | The application initializer.
+    app :: SnapletInit App App
+    app = makeSnaplet "app" "A snaplet example application." Nothing $ do
+        h <- nestSnaplet "" heist $ heistInit "templates"
+        addRoutes routes
+        return $ App h
 
-The resulting files may be copied used for later projects. Maybe in future
-there will be another command who initializes exactly this minimal application
-that we created just now.
+As last step we can remove the now redundant heist templates via
+
+    rm snaplets/heist/templates/*    
+
+but we need to provide a template for now which can be served from the root
+url of our application. So we create a file in
+`snaplets/heist/templates/index.tpl` and fill it with some content, for
+example
+
+    initial application scaffold
+ 
+or something like that. We also can remove the predefined css file for now via
+
+    rm static/screen.css
+
+Now the project is cleaned up form the example code and ready to be used as
+basis for upcoming applications. You may want to the current files into
+another folder which will not be modified or alternatively you can simply
+repeat the steps we did just now on a new initialized default project.
 
 
 Summary
