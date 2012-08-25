@@ -195,31 +195,33 @@ always need Heist in our upcoming chapters, so we can leave it there, the
 others can be removed for now. You can also remove the according imports, so
 the final `src/Application.hs` will look like:
 
-    {-# LANGUAGE TemplateHaskell #-}
+```haskell
+{-# LANGUAGE TemplateHaskell #-}
 
-    ------------------------------------------------------------------------------
-    -- | This module defines our application's state type and an alias for its
-    -- handler monad.
-    module Application where
+-----------------------------------------------------------------------------
+-- | This module defines our application's state type and an alias for its
+-- handler monad.
+module Application where
     
-    ------------------------------------------------------------------------------
-    import Data.Lens.Template
-    import Snap.Snaplet
-    import Snap.Snaplet.Heist
+------------------------------------------------------------------------------
+import Data.Lens.Template
+import Snap.Snaplet
+import Snap.Snaplet.Heist
+
+------------------------------------------------------------------------------
+data App = App
+    { _heist :: Snaplet (Heist App) 
+    }
+
+makeLens ''App
     
-    ------------------------------------------------------------------------------
-    data App = App
-        { _heist :: Snaplet (Heist App) 
-        }
-    
-    makeLens ''App
-    
-    instance HasHeist App where
-        heistLens = subSnaplet heist
+instance HasHeist App where
+    heistLens = subSnaplet heist
     
     
-    ------------------------------------------------------------------------------
-    type AppHandler = Handler App App
+------------------------------------------------------------------------------
+type AppHandler = Handler App App
+```
 
 As next we can clean up the `src/Site.hs` and remove the example code from it.
 This means all the functions with a *handler* suffix can be removed. The
@@ -228,39 +230,41 @@ well as the according part in the application snaplet has been removed
 previously. Finally the imports of modules can be cleaned up as well, so the
 result will look like this:
 
-    {-#LANGUAGE OverloadedStrings #-}
+```haskell
+{-#LANGUAGE OverloadedStrings #-}
 
-    ------------------------------------------------------------------------------
-    -- | This module is where all the routes and handlers are defined for your
-    -- site. The 'app' function is the initializer that combines everything
-    -- together and is exported by this module.
-    module Site
-      ( app
-      ) where
+------------------------------------------------------------------------------
+-- | This module is where all the routes and handlers are defined for your
+-- site. The 'app' function is the initializer that combines everything
+-- together and is exported by this module.
+module Site
+  ( app
+  ) where
 
-    ------------------------------------------------------------------------------
-    import           Data.ByteString (ByteString)
-    import           Snap.Snaplet
-    import           Snap.Snaplet.Heist
-    import           Snap.Util.FileServe
-    ------------------------------------------------------------------------------
-    import           Application
+------------------------------------------------------------------------------
+import           Data.ByteString (ByteString)
+import           Snap.Snaplet
+import           Snap.Snaplet.Heist
+import           Snap.Util.FileServe
+------------------------------------------------------------------------------
+import           Application
 
     
-    ------------------------------------------------------------------------------
-    -- | The application's routes.
-    routes :: [(ByteString, Handler App App ())]
-    routes = [ ("", serveDirectory "static")
-            ]
+------------------------------------------------------------------------------
+-- | The application's routes.
+routes :: [(ByteString, Handler App App ())]
+routes = [ ("", serveDirectory "static")
+        ]
 
 
-    ------------------------------------------------------------------------------
-    -- | The application initializer.
-    app :: SnapletInit App App
-    app = makeSnaplet "app" "A snaplet example application." Nothing $ do
-        h <- nestSnaplet "" heist $ heistInit "templates"
-        addRoutes routes
-        return $ App h
+------------------------------------------------------------------------------
+-- | The application initializer.
+app :: SnapletInit App App
+app = makeSnaplet "app" "A snaplet example application." Nothing $ do
+    h <- nestSnaplet "" heist $ heistInit "templates"
+    addRoutes routes
+    return $ App h
+```
 
 As last step we can remove the now redundant heist templates via
 
