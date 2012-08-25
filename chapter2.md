@@ -69,7 +69,7 @@ two commands which will build our application in two different ways.
     $ cabal install
 
 After building our application via this command, the whole application is
-compiled into the executables. The compilation of the whole applications
+compiled into the executables. The compilation of the whole application
 results in a very fast application (means very fast server response time) but
 also has the following effects:
 
@@ -77,7 +77,10 @@ also has the following effects:
   compilation of the application via 'cabal install'
 
 * changes that are done in any Heist template file (we will dive into Heist
-  soon) will require a restart of the application
+  soon) can be recompiled while the application is running, but require a
+  request of /admin/reload, see also
+  [here](http://snapframework.com/docs/tutorials/snaplets-tutorial#site-reloading)
+  for more information
 
 It should be easy to see that this way of building the executable is hence
 suitable for production environments, means once our application will be
