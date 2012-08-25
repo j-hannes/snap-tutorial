@@ -135,7 +135,7 @@ chapters, which can be read consecutively. But as they are not depending each
 other it is also possible to jump between them or just to pick the one that
 looks interesting. The structure of the tutorial looks as follows:
 
-1. [First steps with Snap](chapter1.md) - Write, build and deploy a Snap web application.
+1. [First steps with Snap](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter1.md) - Write, build and deploy a Snap web application.
 
 2. [Application infrastructure](chapter2.md) - Where to place model, view and
 controller 
