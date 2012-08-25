@@ -194,4 +194,4 @@ application and will have a look at the routing mechanism and how static pages
 are served.
 
 ---
-Next chapter: Routing and static serving
+[Next chapter: Routing and static serving](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter3.md)
