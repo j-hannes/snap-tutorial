@@ -152,15 +152,15 @@ changes and also as backup tool, the use of [Git](http://git-scm.com/) might
 be a good idea and now the right time to initialize your repository. Therefore
 create a .gitignore file with the following content
 
-   dist
-   .ghci
-   *.swp
-   *.swo
+    dist
+    .ghci
+    *.swp
+    *.swo
 
 And place another .gitignore file in the log folder that contains
 
-   *
-   !.gitignore
+    *
+    !.gitignore
 
 The last two only in case you use Vim as text editor. You might want to add
 some more files later on like the session key file, local database files etc.
