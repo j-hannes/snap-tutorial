@@ -122,12 +122,12 @@ for our own Snaplets.
 This is the core of our application and contains all Haskell source files. For
 now we find the following three files in there:
 
-* 'Main.hs' the application entry point where the configuration gets loaded and
+* `Main.hs` the application entry point where the configuration gets loaded and
   the server is started. This file might never been modified, at least not in
   the very beginning. Be aware that changes on this file require a server
   restart even when the application is built in development mode.
 
-* 'Site.hs' is the base of our application. Here the application really gets
+* `Site.hs` is the base of our application. Here the application really gets
   initialized and run as well as routes are defined. For small applications
   like the existing it is probably the easiest way to place our handler and
   helper functions right in that file, but later as the application grows it
@@ -136,7 +136,7 @@ now we find the following three files in there:
   Model-View-Controller pattern (or as you wish also PAC) to structure our
   modules later on. We will see in further chapters how that works.
 
-* 'Application.hs' is the module for our main application Snaplet. What exactly
+* `Application.hs` is the module for our main application Snaplet. What exactly
   this means will be discussed soon in the Snaplets chapter.
 
 You may have noticed that there has another folder been created after our
