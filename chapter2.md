@@ -1,5 +1,5 @@
-The structure of a Snap application
-===================================
+Chapter 2 - The structure of a Snap application
+===============================================
 
 One important thing for me when I was beginning with Snap was to get an idea
 how such an application will look like, how things are organized to work
