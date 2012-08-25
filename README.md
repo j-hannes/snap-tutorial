@@ -135,12 +135,17 @@ chapters, which can be read consecutively. But as they are not depending each
 other it is also possible to jump between them or just to pick the one that
 looks interesting. The structure of the tutorial looks as follows:
 
-1. [First steps with Snap](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter1.md) - Write, build and deploy a Snap web application.
+1. [First steps with
+   Snap](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter1.md) -
+   Write, build and deploy a Snap web application.
 
-2. [Application infrastructure](chapter2.md) - Where to place model, view and
-controller 
+2. [Application
+   infrastructure](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter2.md)
+   - How the default Snap application looks like
 
-3. [How things work together](chapter3.md) - Introduction of Heist and Splices
+3. [Routing and static
+   serving](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter3.md) -
+   Introduction of Heist and Splices
 
 4. Snaplets - Modularize your application.
 
