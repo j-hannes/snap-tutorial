@@ -54,8 +54,8 @@ necessary when you want to develop your web applications with Snap. This is
 exactly what this tutorial here is trying to provide.
 
 
-Oh snap - why Snap?
--------------------
+Why Snap?
+---------
 
 Haskell web development really started off around 2 years ago from now I would
 suppose. As Haskell is the worlds most powerful programming language, it's
@@ -135,17 +135,14 @@ chapters, which can be read consecutively. But as they are not depending each
 other it is also possible to jump between them or just to pick the one that
 looks interesting. The structure of the tutorial looks as follows:
 
-1. [First steps with
-   Snap](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter1.md) -
+1. [First steps with Snap](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter1.md) -
    Write, build and deploy a Snap web application.
 
-2. [Application
-   infrastructure](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter2.md)
-   - How the default Snap application looks like
+2. [Application infrastructure](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter2.md) -
+   How the default Snap application looks like
 
-3. [Routing and static
-   serving](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter3.md) -
-   Introduction of Heist and Splices
+3. [Routing and static serving](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter3.md) -
+   Overview how Snap serves web pages
 
 4. Snaplets - Modularize your application.
 
