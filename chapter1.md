@@ -54,7 +54,7 @@ command will certainly be used most often for initializing a new Snap
 application. It already contains some more code than necessary but it also
 shows quite a few technologies working together which will be covered in later
 chapters. If you can't wait you could install the created scaffolds via
-'cabal install <youprojectname>' and then run it via './<youprojectname>' and
+'cabal install *youprojectname*' and then run it via './*youprojectname*' and
 be amazed at what is already possible with less than 65 lines of code. But we
 will cover those things later anyway so you don't need to do that for now.
 
