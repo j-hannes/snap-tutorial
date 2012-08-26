@@ -96,8 +96,8 @@ of which one might be better than the other, but the bottom line is that you
 can choose for yourself which one fit's best to your own preferences. It is
 important to mention that each of the frameworks can be seen as a collection
 of libraries that could even be used independently from each other, which
-means you are not restricted to use Yesod OR Happstack OR Snap but you can use
-libraries of all of the together if you like.
+means you are not restricted to use Yesod **or** Happstack **or** Snap but you
+can use libraries of all of the together if you like.
 
 Choosing Snap among the others might be just a matter of taste or religion, but
 one could argue that Snap has the 'cleanest' design of all of them. The API is
