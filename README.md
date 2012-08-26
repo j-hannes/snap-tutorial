@@ -29,7 +29,7 @@ created in each chapter are not depending each other.
 Why do we need this?
 --------------------
 
-The nice thing of the Snap framework is, that it already comes with A LOT of
+The nice thing of the Snap framework is, that it already comes with **a lot** of
 good documentation. First of all you can find very comprehensive articles on
 the framework's homepage itself, like the [quick
 start](http://snapframework.com/docs/quickstart), the [Snap
