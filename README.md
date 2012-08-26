@@ -127,16 +127,16 @@ spice things up, but is not necessary.
 The second thing that is more or less necessary to develop Snap web
 applications is fundamental of Haskell. Basics (Haskell type system, higher
 order functions, modules etc. etc.) are a must but ideally you have already
-reached the intermediate level, means you know about type classes, applicative
-functors, monads, monad transformers etc. we will need all that stuff later
-on. Of course it is even possible to learn those things via learning Snap, but
-if you are not familiar with concepts and effects of the State monad, things
-can become funny sometimes. I personally noticed quickly that a 'rough'
-understanding of monads is not enough and found myself crawling through
-tutorials and articles about them while initially wanted to learn something
-about Snap. If you run in the same problems, one of the best collection of
-learning resources about Haskell on the net is currently the (closed?)
-[StackOverflow
+reached the intermediate level, means you know how to use type classes,
+applicative functors, monads, monad transformers etc. we will need all that
+stuff later on. Of course it is even possible to learn those things via
+learning Snap, but if you are not familiar with concepts and effects of the
+State monad, things can become funny sometimes. I personally noticed quickly
+that a 'rough' understanding of monads is not enough and found myself crawling
+through tutorials and articles about them while initially wanted to learn
+something about Snap. If you run in the same problems, one of the best
+collection of learning resources about Haskell on the net is currently the
+(closed?) [StackOverflow
 resource](http://stackoverflow.com/questions/1012573/getting-started-with-haskell),
 but also the [WikiBook about Haskell](http://en.wikibooks.org/wiki/Haskell) is
 very well written. If you still have problem with Haskell's type class system
