@@ -140,7 +140,7 @@ collection of learning resources about Haskell on the net is currently the
 resource](http://stackoverflow.com/questions/1012573/getting-started-with-haskell),
 but also the [WikiBook about Haskell](http://en.wikibooks.org/wiki/Haskell) is
 very well written. If you still have problem with Haskell's type class system
-(Functor, Applicative Functors, Monads, Monoids, Arrows, ...) I can strongly
+(Functors, Applicative Functors, Monads, Monoids, Arrows, etc.) I can highly
 recommend the [Typclassopedia
 article](http://www.haskell.org/haskellwiki/Typeclassopedia).
 
