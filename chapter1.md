@@ -79,4 +79,5 @@ framework.
 Again, if you have any feedback for us how to improve this chapter or this
 tutorial feel free to contact us or modify the according part yourself.
 
-[Next chapter: The structure of a Snap application](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter2.md)
+---
+[Next chapter: Basic infrastructure](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter2.md)

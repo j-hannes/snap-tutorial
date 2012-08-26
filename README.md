@@ -161,7 +161,7 @@ chapters, which can be read consecutively. But as they are not depending each
 other it is also possible to jump between them or just to pick the one that
 looks most interesting to you. The tutorial is structured as follows:
 
-1. [First steps](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter1.md) -
+1. [First steps with Snap](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter1.md) -
    how a Snap application can be created
 
 2. [Basic infrastructure](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter2.md) -
@@ -195,3 +195,6 @@ IRC channel](http://webchat.freenode.net/?channels=snapframework&uio=d4) on
 the freenode server.
 
 Have fun!
+
+---
+[Next chapter: First steps with Snap](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter1.md)
