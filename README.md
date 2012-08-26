@@ -1,8 +1,12 @@
-Concept of a new Snap tutorial
-==============================
+Snap tutorial
+=============
 
-Note: This chapter is a first attempt to write the introduction and will
-probably be modified a bit if this tutorial get's published.
+*Note: This tutorial is still heavy work in progress as the writing has just
+started which means parts and even the table of contents can still change a
+lot, but this will reduce more and more over the time. Everybody is anyway
+invited to contribute with ideas or improvements that can be included into
+it's development.*
+
 
 What is this?
 -------------
@@ -154,26 +158,30 @@ learn most effectively by doing and playing. :)
 As mentioned at the beginning the tutorial will be structured in separate
 chapters, which can be read consecutively. But as they are not depending each
 other it is also possible to jump between them or just to pick the one that
-looks interesting. The structure of the tutorial looks as follows:
+looks most interesting to you. The tutorial is structured as follows:
 
-1. [First steps with Snap](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter1.md) -
-   Get a feeling for the framework
+1. [First steps](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter1.md) -
+   how a Snap application can be created
 
-2. [The structure of a Snap application](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter2.md) -
-   How the default Snap application looks like
+2. [Basic infrastructure](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter2.md) -
+   how a simple Snap application looks like
 
 3. [Routing and static serving](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter3.md) -
-   How Snap serves (static) web pages
+   how Snap serves (static) web pages
 
-4. Snaplets - Modularize your application.
+4. Heist - use the full power of dynamic templating
 
-5. Bootstrap - Use external CSS / JS libraries in you app.
+5. Snaplets - modularize your application
 
-6. Digestive Functors - Create forms a la category theory.
+6. Bootstrap - use external CSS / JS libraries in you app
 
-7. Authentication - Use session and authentication functionality.
+7. Digestive Functors - create forms a la category theory
 
-8. Persistence - Some examples that show the usage of databases.
+8. Authentication - use session and authentication functionality
+
+9. Extended infrastructure - how to MVC you application
+
+10. Persistence - some examples that show the usage of databases
 
 That should be it and might be extended / modified over the time to achieve
 best learning results to new readers.
