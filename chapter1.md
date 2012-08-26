@@ -1,9 +1,23 @@
 Chapter 1 - First steps with Snap
 =================================
 
-This chapter can be kept very short, thanks to precise documentation on the
-Snap [homepage](http://snapframework.com/) and tools that already come with
-the framework itself.
+The most difficult part when learning a completely new technology is mostly to
+get an idea how things work together at all. Nobody likes to read theoretic
+stuff of something he has no idea of anyway yet, but it makes most sense to
+dig right into the action and have a look at an easy to understand example.
+After we got a feeling about the framework, we can start to analyze and
+explain single parts of it to expand our knowledge step by step.
+
+This section will cover the installation of the framework and demonstrate how
+to use the scaffolding tool create "built in" applications, three examples
+that you can have a quick look at and that you might want to use later when
+you want to use parts of it's content. Have a look at the created code and
+play around with it a bit if you wish, but you don't need to fully understand
+each line of code for now - we will cover everything in further chapters.
+
+
+Installation
+------------
 
 The installation of the framework is quite easy and can be done with two
 command as they can be found on the
@@ -18,6 +32,10 @@ you already installed previously.
 After all packages have been downloaded and installed successfully, you are
 probably most curious to try Snap right away, to see that this stuff really
 works, especially if you are new to Haskell web development.
+
+
+Scaffolding
+-----------
 
 As at the very beginning you won't have the overview about the framework to
 know what to start with, Snap offers a scaffolding tool that automatically
@@ -58,26 +76,35 @@ chapters. If you can't wait you could install the created scaffolds via
 be amazed at what is already possible with less than 65 lines of code. But we
 will cover those things later anyway so you don't need to do that for now.
 
-Alright, we are already done with the first chapter, which is intended to be
-kept very short and simple.
+
+Deployment
+----------
+
+After you now have created your first Snap applications and they (hopefully)
+run fine locally [1] you might wonder how you can use Snap / Haskell as
+implementation language for your own web application. Deployment is a topic
+wich is mostly covered only at the end of tutorials (if even), but I
+personally found it quite important to know right at the beginning if the new
+technology is usable easily.
+
+[SMALL SECTION ABOUT DEPLOYMENT] - dedicated server / CGI?
 
 
-Where to go from here?
+Now let's really start
 ----------------------
 
-After we now did our first steps with Snap and (hopefully) everything worked
-fine we will continue with the next (also very short) chapter where we create
-the basis for all further chapters before we explain different techniques that
-work together with the framework in more detail.
+Alright, we are already done with the first chapter, which is intended to be
+kept very short and simple. We haven't created anything ourselves yet, but
+this will change from the next chapter. Again, if you have any feedback for us
+how to improve this chapter or this tutorial feel free to contact us or modify
+the according part yourself.
 
-If you ran into any problems while following the instructions here or in the
+---
+
+[1] If you ran into any problems while following the instructions here or in the
 referred documentation don't hesitate to ask in the IRC channel or in the snap
 mailing list where you will probably receive help very quick. You can find the
 contact information on the [about](http://snapframework.com/about) page of the
 framework.
 
-Again, if you have any feedback for us how to improve this chapter or this
-tutorial feel free to contact us or modify the according part yourself.
-
----
 [Next chapter: Basic infrastructure](https://github.com/J-Hannes/snap-tutorial/blob/master/chapter2.md)
