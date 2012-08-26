@@ -15,10 +15,11 @@ never heard of the Snap framework before, and demonstrate by simple examples
 how to use Snap for writing web applications. Therefore the tutorial is
 divided into multiple parts (chapters). Each chapter tries to contain just one
 new feature to learn, to keep single chapters as simple as possible and also
-to leave them independent from each other. Nothing is worse than already
-knowing the basics and wanting to learn a new feature xy from chapter 5 and
-finding out it continues with the example demonstrated in chapter 2 (hello
-Real World Haskell). Here the chapters are tried to be usable independently.
+to leave them independent from another. Nothing is worse than if you already
+know some basics and you want to learn a new feature xy from chapter 5 but
+then you find out it continues with the example demonstrated in chapter 2
+(hello Real World Haskell). In this tutorial the applications which are
+created in each chapter are not depending eh other.
 
 
 Why do we need this?
