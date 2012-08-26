@@ -19,7 +19,7 @@ to leave them independent from another. Nothing is worse than if you already
 know some basics and you want to learn a new feature xy from chapter 5 but
 then you find out it continues with the example demonstrated in chapter 2
 (hello Real World Haskell). In this tutorial the applications which are
-created in each chapter are not depending eh other.
+created in each chapter are not depending each other.
 
 
 Why do we need this?
