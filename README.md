@@ -120,13 +120,14 @@ Nevertheless some knowledge has to be premised. I assume you have already
 fundamental knowledge in web development. Ideally you have already developed
 in PHP or Ruby or even frameworks of 'real' programming languages like Java
 (JEE) or C++ (ASP.NET) etc., so you are familiar with concepts of distributed
-programs (client server / SOA) but at least you should know the basics of web
-development: HTML and CSS as this will be used throughout as 'front end'
-markup language without further explanation. In case you are not, there exists
-plenty of good learning resources. [W3schools](http://www.w3schools.com) might
-be a good place to start with. JavaScript can of course be integrated as front
-end language for Snap applications (while Haskell is the back end language) to
-spice things up, but is not necessary.
+programs (stateless, client server, SOA) but at least you should know the
+basics of web development: HTML and CSS as this will be used throughout as
+'front end' markup language without further explanation. In case you are not,
+there exists plenty of good learning resources.
+[W3schools](http://www.w3schools.com) might be a good place to start with.
+JavaScript can of course be integrated as front end language for Snap
+applications (while Haskell is the back end language) to spice things up, but
+is not necessary.
 
 The second thing that is more or less necessary to develop Snap web
 applications is fundamental of Haskell. Basics (Haskell type system, higher
