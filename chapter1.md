@@ -87,7 +87,8 @@ wich is mostly covered only at the end of tutorials (if even), but I
 personally found it quite important to know right at the beginning if the new
 technology is usable easily.
 
-[SMALL SECTION ABOUT DEPLOYMENT] - dedicated server / CGI?
+*Todo: Write small section about deployment. Use of dedicated server is
+necessary. Maybe CGI is an option?*
 
 
 Now let's really start
