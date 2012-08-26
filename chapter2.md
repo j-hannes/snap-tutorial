@@ -4,7 +4,8 @@ Chapter 2 - Basic infrastructure
 *Todo: Modify section and explain how to use the snap-examples. As a
 minimalistic application scaffold is not available via the snap init command
 we have to do a workaround in cloning the 'new' application from the
-snap-examples and copying the source code and modify the cabal file.*
+[snap-examples](https://github.com/J-Hannes/snap-examples) and copying the
+source code and modify the cabal file.*
 
 One important thing for me when I was beginning with Snap was to get an idea
 how such an application will look like, how things are organized to work
