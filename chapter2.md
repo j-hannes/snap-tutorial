@@ -177,7 +177,7 @@ Once this is done you can initialize your repository via
 
     git init
     git add .
-    git commit -a -m "Initialize project skelleton"
+    git commit -a -m "Initialize project skeleton"
 
 or a similar initial commit message. Versioning is generally a good idea, even
 of smaller project because you get used to the work flow of commits and making
