@@ -52,7 +52,7 @@ framework, like the one of
 [gcollins@CUFP2011](http://gregorycollins.net/posts/2011/10/01/cufp-tutorial-slides),
 one about [How to create a StarCraft 2 blog with
 Snap](http://bonus500.github.com/sc2blog) or one from the
-[Hal7](http://patch-tag.com/r/shahn/hal-snap-2012/snapshot/current/content/pretty/slides.pdf).
+[Hal7](http://code.haskell.org/hal/07-2012/folien/snap.pdf).
 
 And last but not least, there exist plenty of blog entries of the developers
 of the framework, like [mightybyte](http://softwaresimply.blogspot.co.uk),
